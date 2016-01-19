@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8127D04D1C450DC80051E7A0 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127D04C1C450DC80051E7A0 /* TableViewController.m */; };
 		814F4D651C3F946D00BC6157 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 814F4D641C3F946D00BC6157 /* AppDelegate.m */; };
 		814F4D681C3F946D00BC6157 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 814F4D671C3F946D00BC6157 /* main.m */; };
 		814F4D6B1C3F946D00BC6157 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814F4D6A1C3F946D00BC6157 /* ViewController.m */; };
 		814F4D6D1C3F946D00BC6157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814F4D6C1C3F946D00BC6157 /* Assets.xcassets */; };
 		814F4D701C3F946D00BC6157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814F4D6E1C3F946D00BC6157 /* Main.storyboard */; };
+		81506C1C1C4CCDDE0036204B /* HHUnzipTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 81506C1B1C4CCDDE0036204B /* HHUnzipTool.m */; };
+		81506C1E1C4CD7B60036204B /* sharedStrings.xml in Resources */ = {isa = PBXBuildFile; fileRef = 81506C1D1C4CD7B60036204B /* sharedStrings.xml */; };
+		81506C221C4CDA430036204B /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 81506C211C4CDA430036204B /* XMLDictionary.m */; };
+		81506C261C4DE4D60036204B /* HHBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 81506C251C4DE4D60036204B /* HHBook.m */; };
+		81506C291C4DE6430036204B /* HHSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 81506C281C4DE6430036204B /* HHSheet.m */; };
+		81506C301C4E000E0036204B /* HHRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 81506C2F1C4E000E0036204B /* HHRow.m */; };
+		81506C331C4E00600036204B /* HHCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81506C321C4E00600036204B /* HHCell.m */; };
+		81506C361C4E3D460036204B /* HHTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 81506C351C4E3D460036204B /* HHTool.m */; };
+		81B334141C3FCB6700CAC463 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B334131C3FCB6700CAC463 /* background.png */; };
+		81B334171C434CE100CAC463 /* HHFileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B334161C434CE100CAC463 /* HHFileView.m */; };
+		81B3352A1C44A0CF00CAC463 /* HHJSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B335291C44A0CF00CAC463 /* HHJSFile.m */; };
+		C894BCB91DBF6E02A4F875A8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E28012E57666402696A46DEB /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0F5273E7187A74764CCD9E /* Pods_HHLanguage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHLanguage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8127D04B1C450DC80051E7A0 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		8127D04C1C450DC80051E7A0 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		814F4D601C3F946D00BC6157 /* HHLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		814F4D631C3F946D00BC6157 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		814F4D641C3F946D00BC6157 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,6 +40,31 @@
 		814F4D6C1C3F946D00BC6157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		814F4D6F1C3F946D00BC6157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		814F4D711C3F946D00BC6157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81506C1A1C4CCDDE0036204B /* HHUnzipTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHUnzipTool.h; sourceTree = "<group>"; };
+		81506C1B1C4CCDDE0036204B /* HHUnzipTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHUnzipTool.m; sourceTree = "<group>"; };
+		81506C1D1C4CD7B60036204B /* sharedStrings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sharedStrings.xml; sourceTree = "<group>"; };
+		81506C201C4CDA430036204B /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		81506C211C4CDA430036204B /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		81506C241C4DE4D60036204B /* HHBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBook.h; sourceTree = "<group>"; };
+		81506C251C4DE4D60036204B /* HHBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBook.m; sourceTree = "<group>"; };
+		81506C271C4DE6430036204B /* HHSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSheet.h; sourceTree = "<group>"; };
+		81506C281C4DE6430036204B /* HHSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSheet.m; sourceTree = "<group>"; };
+		81506C2D1C4DE6E60036204B /* HHExcel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHExcel.h; sourceTree = "<group>"; };
+		81506C2E1C4E000E0036204B /* HHRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHRow.h; sourceTree = "<group>"; };
+		81506C2F1C4E000E0036204B /* HHRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRow.m; sourceTree = "<group>"; };
+		81506C311C4E00600036204B /* HHCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHCell.h; sourceTree = "<group>"; };
+		81506C321C4E00600036204B /* HHCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHCell.m; sourceTree = "<group>"; };
+		81506C341C4E3D460036204B /* HHTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTool.h; sourceTree = "<group>"; };
+		81506C351C4E3D460036204B /* HHTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTool.m; sourceTree = "<group>"; };
+		81B334131C3FCB6700CAC463 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		81B334151C434CE100CAC463 /* HHFileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHFileView.h; sourceTree = "<group>"; };
+		81B334161C434CE100CAC463 /* HHFileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHFileView.m; sourceTree = "<group>"; };
+		81B335281C44A0CF00CAC463 /* HHJSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHJSFile.h; sourceTree = "<group>"; };
+		81B335291C44A0CF00CAC463 /* HHJSFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHJSFile.m; sourceTree = "<group>"; };
+		81B3366D1C44D5B300CAC463 /* HHLanguage.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLanguage.pch; sourceTree = "<group>"; };
+		90C9A6E47B6EC2F24C3CC990 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BEBE5278462F58A1D66095EF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E28012E57666402696A46DEB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +72,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C894BCB91DBF6E02A4F875A8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05DE4B5B95594364EE6A082C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E28012E57666402696A46DEB /* libPods.a */,
+				2C0F5273E7187A74764CCD9E /* Pods_HHLanguage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		814F4D571C3F946D00BC6157 = {
 			isa = PBXGroup;
 			children = (
 				814F4D621C3F946D00BC6157 /* HHLanguage */,
 				814F4D611C3F946D00BC6157 /* Products */,
+				FA9643AC4E98EA64CA635C62 /* Pods */,
+				05DE4B5B95594364EE6A082C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,11 +109,23 @@
 		814F4D621C3F946D00BC6157 /* HHLanguage */ = {
 			isa = PBXGroup;
 			children = (
+				81506C231C4DE4C80036204B /* HHBook */,
+				81506C1F1C4CDA430036204B /* XMLDictionary */,
 				814F4D631C3F946D00BC6157 /* AppDelegate.h */,
 				814F4D641C3F946D00BC6157 /* AppDelegate.m */,
+				81B335281C44A0CF00CAC463 /* HHJSFile.h */,
+				81B335291C44A0CF00CAC463 /* HHJSFile.m */,
 				814F4D691C3F946D00BC6157 /* ViewController.h */,
 				814F4D6A1C3F946D00BC6157 /* ViewController.m */,
+				81B334151C434CE100CAC463 /* HHFileView.h */,
+				81B334161C434CE100CAC463 /* HHFileView.m */,
+				81506C1D1C4CD7B60036204B /* sharedStrings.xml */,
+				8127D04B1C450DC80051E7A0 /* TableViewController.h */,
+				8127D04C1C450DC80051E7A0 /* TableViewController.m */,
+				81506C1A1C4CCDDE0036204B /* HHUnzipTool.h */,
+				81506C1B1C4CCDDE0036204B /* HHUnzipTool.m */,
 				814F4D6C1C3F946D00BC6157 /* Assets.xcassets */,
+				81B334131C3FCB6700CAC463 /* background.png */,
 				814F4D6E1C3F946D00BC6157 /* Main.storyboard */,
 				814F4D711C3F946D00BC6157 /* Info.plist */,
 				814F4D661C3F946D00BC6157 /* Supporting Files */,
@@ -72,8 +137,45 @@
 			isa = PBXGroup;
 			children = (
 				814F4D671C3F946D00BC6157 /* main.m */,
+				81B3366D1C44D5B300CAC463 /* HHLanguage.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81506C1F1C4CDA430036204B /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				81506C201C4CDA430036204B /* XMLDictionary.h */,
+				81506C211C4CDA430036204B /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		81506C231C4DE4C80036204B /* HHBook */ = {
+			isa = PBXGroup;
+			children = (
+				81506C241C4DE4D60036204B /* HHBook.h */,
+				81506C251C4DE4D60036204B /* HHBook.m */,
+				81506C271C4DE6430036204B /* HHSheet.h */,
+				81506C281C4DE6430036204B /* HHSheet.m */,
+				81506C2E1C4E000E0036204B /* HHRow.h */,
+				81506C2F1C4E000E0036204B /* HHRow.m */,
+				81506C311C4E00600036204B /* HHCell.h */,
+				81506C321C4E00600036204B /* HHCell.m */,
+				81506C2D1C4DE6E60036204B /* HHExcel.h */,
+				81506C341C4E3D460036204B /* HHTool.h */,
+				81506C351C4E3D460036204B /* HHTool.m */,
+			);
+			path = HHBook;
+			sourceTree = "<group>";
+		};
+		FA9643AC4E98EA64CA635C62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90C9A6E47B6EC2F24C3CC990 /* Pods.debug.xcconfig */,
+				BEBE5278462F58A1D66095EF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 814F4D741C3F946D00BC6157 /* Build configuration list for PBXNativeTarget "HHLanguage" */;
 			buildPhases = (
+				BFAC358B039A26F0C31361F5 /* Check Pods Manifest.lock */,
 				814F4D5C1C3F946D00BC6157 /* Sources */,
 				814F4D5D1C3F946D00BC6157 /* Frameworks */,
 				814F4D5E1C3F946D00BC6157 /* Resources */,
+				9763527EBC2DDA699C8EE387 /* Copy Pods Resources */,
+				296189AACF9FBC477D26B083 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,20 +239,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				814F4D6D1C3F946D00BC6157 /* Assets.xcassets in Resources */,
+				81506C1E1C4CD7B60036204B /* sharedStrings.xml in Resources */,
+				81B334141C3FCB6700CAC463 /* background.png in Resources */,
 				814F4D701C3F946D00BC6157 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		296189AACF9FBC477D26B083 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9763527EBC2DDA699C8EE387 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFAC358B039A26F0C31361F5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		814F4D5C1C3F946D00BC6157 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81506C261C4DE4D60036204B /* HHBook.m in Sources */,
 				814F4D6B1C3F946D00BC6157 /* ViewController.m in Sources */,
+				81506C221C4CDA430036204B /* XMLDictionary.m in Sources */,
+				81506C301C4E000E0036204B /* HHRow.m in Sources */,
+				81506C1C1C4CCDDE0036204B /* HHUnzipTool.m in Sources */,
+				8127D04D1C450DC80051E7A0 /* TableViewController.m in Sources */,
+				81B3352A1C44A0CF00CAC463 /* HHJSFile.m in Sources */,
 				814F4D681C3F946D00BC6157 /* main.m in Sources */,
+				81506C361C4E3D460036204B /* HHTool.m in Sources */,
+				81506C291C4DE6430036204B /* HHSheet.m in Sources */,
+				81B334171C434CE100CAC463 /* HHFileView.m in Sources */,
 				814F4D651C3F946D00BC6157 /* AppDelegate.m in Sources */,
+				81506C331C4E00600036204B /* HHCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,11 +411,27 @@
 		};
 		814F4D751C3F946D00BC6157 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C9A6E47B6EC2F24C3CC990 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HHLanguage",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HHLanguage/HHLanguage.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = HHLanguage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HHLanguage",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = caohuihui.com.HHLanguage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -258,11 +439,27 @@
 		};
 		814F4D761C3F946D00BC6157 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBE5278462F58A1D66095EF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HHLanguage",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HHLanguage/HHLanguage.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = HHLanguage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HHLanguage",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = caohuihui.com.HHLanguage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -287,6 +484,7 @@
 				814F4D761C3F946D00BC6157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

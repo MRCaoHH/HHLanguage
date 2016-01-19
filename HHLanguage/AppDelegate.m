@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "HHTool.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +18,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    [[NSUserDefaults standardUserDefaults]setObject:@"" forKey:kFilePathKey];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

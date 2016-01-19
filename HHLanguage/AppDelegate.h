@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+static NSString * kFilePathKey = @"kFilePathKey";
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 

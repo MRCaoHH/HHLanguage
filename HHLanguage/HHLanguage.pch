@@ -1,0 +1,19 @@
+//
+//  HHLanguage.pch
+//  HHLanguage
+//
+//  Created by caohuihui on 16/1/12.
+//  Copyright © 2016年 caohuihui. All rights reserved.
+//
+
+#ifndef HHLanguage_pch
+#define HHLanguage_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Cocoa/Cocoa.h>
+#import "HHExcel.h"
+#import "XMLDictionary.h"
+
+#endif /* HHLanguage_pch */
